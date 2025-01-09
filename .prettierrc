@@ -1,7 +1,7 @@
 {
-  "semicolon": true,
-  "singleQuote": false,
-  "trailingComma": "all",
-  "tabWidth": 4,
-  "printWidth": 120
+    "semicolon": true,
+    "singleQuote": false,
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "printWidth": 120
 }
