@@ -1,15 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 :root {
   color-scheme: light dark;
-
-  font-family: "Source Code Pro", monospace;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
   font-synthesis: none;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
@@ -18,8 +29,7 @@ body,
 .content {
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  font-size: 67.5%;
 }
 
 .app {
