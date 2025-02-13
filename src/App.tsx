@@ -5,6 +5,7 @@ import Appbar from "./scenes/global/Appbar";
 import Sidebar from "./scenes/global/Sidebar";
 import Dashboard from "./scenes/dashboard";
 import Teams from "./scenes/teams";
+import Contacts from "./scenes/contacts";
 
 export default function App() {
   const [theme, colorMode] = useMode();
@@ -20,7 +21,7 @@ export default function App() {
               <Routes>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/team" element={<Teams />} />
-                {/* <Route path="/contacts" element={<Contacts />} /> */}
+                <Route path="/contacts" element={<Contacts />} />
                 {/* <Route path="/invoices" element={<Invoices />} /> */}
                 {/* <Route path="/form" element={<Form />} /> */}
                 {/* <Route path="/bar" element={<Bar />} /> */}
