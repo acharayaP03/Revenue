@@ -9,6 +9,7 @@ import Contacts from "./scenes/contacts";
 import Invoices from "./scenes/Invoices";
 import Form from "./scenes/form";
 
+import Calendar from "./scenes/Calendar";
 export default function App() {
   const [theme, colorMode] = useMode();
   return (
@@ -31,7 +32,7 @@ export default function App() {
                 {/* <Route path="/line" element={<Line />} /> */}
                 {/* <Route path="/faq" element={<FAQ />} /> */}
                 {/* <Route path="/geography" element={<Geography />} /> */}
-                {/* <Route path="/calendar" element={<Calendar />} /> */}
+                <Route path="/calendar" element={<Calendar />} />
               </Routes>
             </main>
           </BrowserRouter>
