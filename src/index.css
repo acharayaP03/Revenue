@@ -55,3 +55,15 @@ body,
 ::-webkit-scrollbar-track:hover {
   background: #555;
 }
+.fc .fc-header-toolbar {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.fc .fc-button {
+  text-transform: capitalize;
+}
+
+.fc .fc-view-harness {
+  font-size: 14px;
+}
