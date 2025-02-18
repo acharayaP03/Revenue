@@ -8,9 +8,10 @@ import Teams from "./scenes/teams";
 import Contacts from "./scenes/contacts";
 import Invoices from "./scenes/Invoices";
 import Form from "./scenes/form";
-
+import Bar from "./scenes/Bar";
 import Calendar from "./scenes/Calendar";
 import Faq from "./scenes/faq";
+
 export default function App() {
   const [theme, colorMode] = useMode();
   return (
@@ -30,7 +31,7 @@ export default function App() {
                 <Route path="/form" element={<Form />} />
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/faq" element={<Faq />} />
-                {/* <Route path="/bar" element={<Bar />} /> */}
+                <Route path="/bar" element={<Bar />} />
                 {/* <Route path="/pie" element={<Pie />} /> */}
                 {/* <Route path="/line" element={<Line />} /> */}
                 {/* <Route path="/geography" element={<Geography />} /> */}
