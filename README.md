@@ -4,6 +4,15 @@ This dashboard is built with Material ui for UI, Nivo for charts and Formik and 
 
 Also contains theme switcher which has been extended with custom theme with material ui theme.
 
+![image](https://github.com/user-attachments/assets/dbfc45d5-f1e1-409b-a7c9-4c1dbfdd18c7)
+
+![image](https://github.com/user-attachments/assets/b1fab475-94c3-4e6e-88c6-bb824dfe22a3)
+
+![image](https://github.com/user-attachments/assets/a1615650-3d71-4b08-af07-a6c3e5ff8077)
+
+![image](https://github.com/user-attachments/assets/d020c5ea-0a8d-4d23-a45c-b4fa99ed196c)
+
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
