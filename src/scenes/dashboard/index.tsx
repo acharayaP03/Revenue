@@ -198,6 +198,14 @@ const Dashboard: React.FC = () => {
             <GeographyChart isDashboard={true} />
           </Box>
         </Box>
+        <Box gridColumn="span 4" gridRow="span 2" sx={{ background: colors.primary[400] }} padding="30px">
+          <Typography variant="h5" fontWeight="600" sx={{ marginBottom: "15px" }}>
+            Most used language
+          </Typography>
+          <Box height="200px">
+            <PieChart />
+          </Box>
+        </Box>
       </Box>
     </Box>
   );
